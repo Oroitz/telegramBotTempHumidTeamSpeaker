@@ -92,8 +92,8 @@ def get_user_step(uid):
     else:                       # If it's a new user
         knowUsers.append(uid)   # Puts the user in the list
         userStep[uid] = 0       # Assigns 0 value to user ID
-        # Prints "New user" in the terminal:
-        print (color.RED + "[i] NEW USER!!!" + color.ENDC)
+        ## Prints "New user" in the terminal:
+        #print (color.RED + "[i] NEW USER!!!" + color.ENDC)
 
 # LISTENER: function that will read when a command enters:
 def listener(messages):
