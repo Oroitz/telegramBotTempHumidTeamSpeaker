@@ -124,7 +124,7 @@ def command_help(m):
         help_text += commands[key] + "\n"
     bot.send_message(cid, help_text) # Sends help message
 
-# Beginning menua
+# Beginning menu
 menu_menu = types.ReplyKeyboardMarkup()
 menu_menu.add("Get data", "Up data")
 menu_menu.add("Change automatic mode", "Activate/deactivate alarm")
